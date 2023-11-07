@@ -1,0 +1,250 @@
+{
+    "name": "GameInputs",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "bf4f8854-ee86-41cc-bad8-ce4e5b7dceae",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "6652bd8e-9700-4815-9932-04ee682521f5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Orbiting",
+                    "type": "Value",
+                    "id": "6daa7d1a-2bf5-45a5-aed0-bad162ce7051",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Zooming",
+                    "type": "Value",
+                    "id": "3c772d0b-2aa2-4ab1-b9dd-ecf25abc2dec",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Selecting",
+                    "type": "Button",
+                    "id": "51703f28-e763-4c83-83cc-e2a2abfede7c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ordering",
+                    "type": "Button",
+                    "id": "0558915e-1fd6-4535-a805-9bb9eccb7028",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ending Turn",
+                    "type": "Button",
+                    "id": "1ae48de4-e026-4fc6-8769-456190ed12ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "d2880dc2-7a93-400e-bf4e-5609c2e5b1b8",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "59be5534-5bea-4926-8201-228f44d27cd5",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "9ece397d-ff66-4f94-8f4c-7e5a40ea4889",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "001b98e1-c894-4923-9d7a-1b8e3fbf5f52",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "53709472-3d0c-4eac-9503-62b29ca7d043",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Arrow Keys",
+                    "id": "4ed245b2-eca3-45bb-8b29-396dee70fb2e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "905cbf51-238b-4bf0-a312-6435018a3b4e",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "a3e53ace-c4ef-44f6-b5c2-1b0ab643b97c",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "11148cfa-8369-454f-b7ed-8d644ed40f32",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "73119499-d98b-4819-9924-bdfcc58c862f",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "572ced14-8912-4973-9f1d-516d3298fde8",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "NormalizeVector2",
+                    "groups": "K&M",
+                    "action": "Orbiting",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa034b5a-18b6-4dca-8509-76d6b4d83bc7",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Zooming",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59ee481b-4013-4111-83fa-e0a5c1f45bc2",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Selecting",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56e62447-ce47-46ae-955c-7955f64ce9ac",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Ordering",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bb16ba5-37ad-4c1d-b33d-1134f8ba6428",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "K&M",
+                    "action": "Ending Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "K&M",
+            "bindingGroup": "K&M",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
